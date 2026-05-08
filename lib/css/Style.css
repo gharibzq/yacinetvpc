@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://officena.net/team/rabie/Material_Icons/img/bgl.png');
+}
+
+.button {
+    background-color: whitesmoke;
+    border: 2px solid rgb(157, 0, 0);
+    color: rgb(157, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    background-color: silver;
+}
+
+._divMain {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    margin: 1px;
+}
+
+.card {
+    border: 2px solid rgb(157, 0, 0);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 5px;
+    width: 75px;
+    color: blueviolet;
+    font-size: 9px;
+    transition: 0.3s;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    background-color: silver;
+    color: red;
+}
+
+._img {
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 2px;
+    width: 95%;
+    height: 64px;
+    object-fit: scale-down;
+}
+
+div.container {
+    text-align: center;
+
+}
+h1 {
+    color: white;
+}

@@ -1,0 +1,68 @@
+body {
+    background-image: url("../img/bgl.png");
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+.btnPlay {
+    border: none;
+    color: RoyalBlue;
+    cursor: pointer;
+    background-color: transparent;
+    padding-top: 25px;
+}
+
+.btnPlay:hover {
+    color: red;
+}
+
+.grid-container {
+    background-color: whitesmoke;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid rgb(157, 0, 0);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 12px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+._img {
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 2px;
+    width: 90%;
+}
